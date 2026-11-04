@@ -1,0 +1,18 @@
+# EXAMPLE / TEST FIXTURE - spec values are PLACEHOLDERS for exercising the pipeline,
+# not verified manufacturer data. Replace with real vendor spec dumps before production.
+Brand,Model,Type,Sensitivity (dB/2.83V/1m),Nominal Impedance,RMS Wattage,Frequency Response,Finish
+Morel,Octave 6 Floorstanding,Floorstanding,88 dB,4 Ω,150W RMS,35Hz-25kHz,Black Gloss
+Morel,Octave 8 Floorstanding,Floorstanding,89dB,4 ohm,200 W,30Hz-25kHz,Walnut
+Morel,Octave 8 Floorstanding 8-Ohm,Floorstanding,89,8 ohms,200,30Hz-25kHz,Walnut
+Morel,Octave 6 Bookshelf,Bookshelf,87 dB,8 Ω,100W RMS / 200W peak,45Hz-25kHz,Black Gloss
+Morel,Octave Center,Center,88dB,4 Ω,120W,55Hz-25kHz,Black Gloss
+Morrel,Octave Sub 10,Subwoofer,,,300W,22Hz-150Hz,Black
+Octave Audio,V 80 SE,Integrated amplifier,,4-8 Ω,2 x 75W,,Silver
+Focal,Aria Evo X No 2,Floorstanding,91.5 dB,8 Ω,250 W,,Prime Walnut
+Focal,Aria Evo X No 1,Bookshelf,88.5 dB,8 Ω,150 W,,Prime Walnut
+B&W,705 S3,Stand-mount,88 dB,8 Ω,120W,,Gloss Black
+KEF,R7 Meta,Floorstanding,"87,5 dB",4 Ω,150W,,Titanium Gloss
+Klipsch,RP-8000F II,Tower,98 dB,8 ohms,150W continuous,,Ebony
+Magnepan,LRS+,Floorstanding,86,4,100W,,Off-white
+,Mystery Speaker,Floorstanding,88,8,100,,
+Dynaudio,Contour 60i,Floorstanding,88 dB,4 Ω,300 W,,Black

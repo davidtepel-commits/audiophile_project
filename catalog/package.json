@@ -1,0 +1,31 @@
+{
+  "name": "audiophile-catalog",
+  "version": "1.0.0",
+  "description": "Pre-seeded hi-fi brand & component directory with trigram fuzzy search and bulk spec importer",
+  "main": "src/importer.js",
+  "scripts": {
+    "migrate": "node scripts/migrate.js",
+    "ingest": "node scripts/ingest.js",
+    "seed": "node scripts/migrate.js && node scripts/ingest.js",
+    "search": "node scripts/search.js",
+    "admin": "node admin/server.js",
+    "build:brands": "node data/build_brands.js",
+    "test": "node --test test/*.test.js",
+    "test:db": "node --test test/db.integration.test.js"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "pg": "^8.23.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

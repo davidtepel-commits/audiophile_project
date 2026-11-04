@@ -1,0 +1,305 @@
+# name	country	categories(comma)	aliases(|)
+Morel	IL	speakers,car_audio,drivers	
+Focal	FR	speakers,headphones,car_audio,drivers	JMlab|Focal-JMlab
+Bowers & Wilkins	GB	speakers,headphones	B&W|BW|B and W
+KEF	GB	speakers,subwoofers	
+Dynaudio	DK	speakers,car_audio	
+DALI	DK	speakers	Danish Audiophile Loudspeaker Industries
+Magnepan	US	speakers	Maggie|Magneplanar
+MartinLogan	US	speakers,subwoofers	Martin Logan
+Klipsch	US	speakers,subwoofers,headphones	
+JBL	US	speakers,subwoofers,car_audio	JBL Synthesis
+Wharfedale	GB	speakers	
+Monitor Audio	GB	speakers,subwoofers	
+ProAc	GB	speakers	
+Harbeth	GB	speakers	
+Spendor	GB	speakers	
+Graham Audio	GB	speakers	
+Rogers	GB	speakers	
+Tannoy	GB	speakers	
+PMC	GB	speakers	Professional Monitor Company
+ATC	GB	speakers,amplification	Acoustic Transducer Company
+Kudos Audio	GB	speakers	Kudos
+Neat Acoustics	GB	speakers	Neat
+Q Acoustics	GB	speakers	
+Mission	GB	speakers	
+Castle Acoustics	GB	speakers	Castle
+Acoustic Energy	GB	speakers	AE
+Epos	GB	speakers	
+Russell K	GB	speakers	
+Fyne Audio	GB	speakers	
+Wilson Benesch	GB	speakers	
+Living Voice	GB	speakers	
+REL Acoustics	GB	subwoofers	REL
+Totem Acoustic	CA	speakers	Totem
+Paradigm	CA	speakers,subwoofers	
+PSB Speakers	CA	speakers,subwoofers,headphones	PSB
+Axiom Audio	CA	speakers	Axiom
+Energy	CA	speakers	Energy Speakers
+Mirage	CA	speakers	
+ELAC	DE	speakers,subwoofers	
+Canton	DE	speakers	
+Heco	DE	speakers	
+Magnat	DE	speakers,car_audio	
+Quadral	DE	speakers	
+Nubert	DE	speakers	
+Audio Physic	DE	speakers	
+Gauder Akustik	DE	speakers	
+Burmester	DE	speakers,amplification,sources	
+T+A	DE	speakers,amplification,sources,headphones	T and A|Theory and Application
+Manger	DE	speakers,drivers	
+Avantgarde Acoustic	DE	speakers	Avantgarde
+MBL	DE	speakers,amplification	
+Lansche Audio	DE	speakers	
+Ascendo	DE	speakers	
+Tidal Audio	DE	speakers	
+Acapella Audio Arts	DE	speakers	Acapella
+Cessaro	DE	speakers	
+Auditorium 23	DE	speakers	
+Kii Audio	DE	speakers	Kii
+Adam Audio	DE	speakers	ADAM
+Neumann	DE	speakers,headphones	
+Piega	CH	speakers	
+Goldmund	CH	amplification,speakers	
+Sonus Faber	IT	speakers	Sonus faber
+Franco Serblin	IT	speakers	
+Diapason	IT	speakers	
+Chario	IT	speakers	
+Opera Loudspeakers	IT	speakers	Opera
+Zingali	IT	speakers	
+Viva Audio	IT	amplification,speakers	
+Vienna Acoustics	AT	speakers	
+Estelon	EE	speakers	
+Audio Solutions	LT	speakers	
+Raidho	DK	speakers	
+Scansonic	DK	speakers	
+Audiovector	DK	speakers	
+Jamo	DK	speakers	
+Børresen	DK	speakers	Borresen|Borresen Acoustics
+Gamut	DK	speakers,amplification	
+System Audio	DK	speakers	
+Buchardt Audio	DK	speakers	Buchardt
+Vivid Audio	ZA	speakers	
+Wilson Audio	US	speakers	
+Magico	US	speakers	
+YG Acoustics	US	speakers	YG
+Rockport Technologies	US	speakers	Rockport
+Thiel	US	speakers	Thiel Audio
+Vandersteen	US	speakers,subwoofers	
+Von Schweikert Audio	US	speakers	VSA|Von Schweikert
+Legacy Audio	US	speakers	
+Polk Audio	US	speakers,subwoofers	Polk
+Definitive Technology	US	speakers,subwoofers	Def Tech
+SVS	US	subwoofers,speakers	SV Sound
+JL Audio	US	subwoofers,car_audio	
+Rythmik Audio	US	subwoofers	Rythmik
+Hsu Research	US	subwoofers	Hsu
+GoldenEar	US	speakers,subwoofers	GoldenEar Technology
+Zu Audio	US	speakers	Zu
+Tekton Design	US	speakers	Tekton
+Avalon Acoustics	US	speakers	Avalon
+Joseph Audio	US	speakers	
+Perlisten	US	speakers,subwoofers	
+Revel	US	speakers,subwoofers	
+Infinity	US	speakers,car_audio	
+Snell Acoustics	US	speakers	Snell
+Acoustic Research	US	speakers	AR
+Bose	US	speakers,headphones	
+Sonos	US	speakers	
+Triangle	FR	speakers	
+Cabasse	FR	speakers	
+Davis Acoustics	FR	speakers	Davis
+Elipson	FR	speakers,turntables	
+Atohm	FR	speakers	
+Waterfall Audio	FR	speakers	
+Jean-Marie Reynaud	FR	speakers	JMR
+Ocellia	FR	speakers	
+Kharma	NL	speakers,amplification	
+Dutch & Dutch	NL	speakers	Dutch and Dutch
+Genelec	FI	speakers,subwoofers	
+Amphion	FI	speakers	
+Marten	SE	speakers	
+Audio Pro	SE	speakers	
+Usher Audio	TW	speakers	Usher
+Tune Audio	GR	speakers	
+Bang & Olufsen	DK	speakers,headphones	B&O|BO|Bang and Olufsen
+Devialet	FR	amplification,speakers	
+Linn	GB	sources,amplification,speakers,turntables	Linn Products
+Naim Audio	GB	amplification,sources	Naim
+Meridian Audio	GB	sources,speakers,amplification	Meridian
+Rega	GB	turntables,amplification,sources,speakers,cartridges	Rega Research
+Arcam	GB	amplification,sources	
+Cambridge Audio	GB	amplification,sources	Cambridge
+Musical Fidelity	GB	amplification,sources	
+Chord Electronics	GB	sources,amplification	Chord
+dCS	GB	sources	Data Conversion Systems
+Leema Acoustics	GB	amplification	Leema
+Exposure	GB	amplification	
+Creek Audio	GB	amplification	Creek
+Roksan	GB	amplification,turntables	
+Cyrus Audio	GB	amplification,sources	Cyrus
+Quad	GB	speakers,amplification	QUAD
+Audiolab	GB	amplification,sources	
+Audio Note UK	GB	amplification,speakers,sources	Audio Note
+iFi Audio	GB	sources,amplification	iFi
+SME	GB	turntables	
+Michell Engineering	GB	turntables	Michell
+NAD	CA	amplification,sources	NAD Electronics
+Bryston	CA	amplification,speakers	
+Moon by Simaudio	CA	amplification,sources	Simaudio|Moon
+Classé	CA	amplification	Classe|Classe Audio
+Anthem	CA	amplification	
+Bluesound	CA	sources	
+Kanto	CA	speakers	Kanto Audio
+Marantz	JP	amplification,sources	
+Denon	JP	amplification,sources,cartridges	
+Yamaha	JP	amplification,sources,speakers,headphones	
+Onkyo	JP	amplification	
+Pioneer	JP	amplification,sources,car_audio	Pioneer Elite
+Technics	JP	turntables,amplification,speakers	
+Accuphase	JP	amplification,sources	
+Luxman	JP	amplification,sources	
+Esoteric	JP	sources,amplification	
+TEAC	JP	sources,amplification	
+Sony	JP	sources,headphones,speakers	
+Kenwood	JP	amplification,car_audio	
+Sansui	JP	amplification	
+Nakamichi	JP	sources,car_audio	
+Audio-Technica	JP	cartridges,headphones,turntables	Audio Technica|AT
+Fostex	JP	drivers,headphones	
+Final Audio	JP	headphones	Final
+Air Tight	JP	amplification	
+Kondo	JP	amplification	Audio Note Japan|Kondo Audio Note
+Leben	JP	amplification	
+Soulnote	JP	amplification,sources	
+TAD Laboratories	JP	speakers,amplification	TAD|Technical Audio Devices
+Kiso Acoustic	JP	speakers	
+Stax	JP	headphones	
+Lyra	JP	cartridges	
+Dynavector	JP	cartridges	
+Koetsu	JP	cartridges	
+Alpine	JP	car_audio	
+Rotel	JP	amplification,sources	
+McIntosh	US	amplification,sources,speakers	McIntosh Labs
+Mark Levinson	US	amplification,sources	
+Krell	US	amplification	Krell Industries
+Pass Labs	US	amplification	Pass
+First Watt	US	amplification	
+Audio Research	US	amplification	ARC
+Conrad-Johnson	US	amplification	CJ|Conrad Johnson
+VTL	US	amplification	Vacuum Tube Logic
+Boulder Amplifiers	US	amplification	Boulder
+Constellation Audio	US	amplification	Constellation
+Parasound	US	amplification	
+Schiit Audio	US	amplification,sources	Schiit
+Benchmark Media Systems	US	amplification,sources	Benchmark
+PS Audio	US	amplification,sources	
+Bel Canto	US	amplification,sources	Bel Canto Design
+Ayre Acoustics	US	amplification,sources	Ayre
+Spectral Audio	US	amplification	Spectral
+Threshold	US	amplification	
+Emotiva	US	amplification,speakers	
+Outlaw Audio	US	amplification	Outlaw
+Monoprice	US	speakers,amplification,headphones	
+Cary Audio	US	amplification,sources	Cary
+Rogue Audio	US	amplification	Rogue
+VPI Industries	US	turntables	VPI
+Music Hall	US	turntables	
+Sumiko	US	cartridges	
+Audioengine	US	speakers	
+Audeze	US	headphones	
+Grado	US	headphones,cartridges	Grado Labs
+Dan Clark Audio	US	headphones	DCA|MrSpeakers
+ZMF Headphones	US	headphones	ZMF
+Shure	US	headphones,cartridges	
+Campfire Audio	US	headphones	
+Rockford Fosgate	US	car_audio	Rockford
+Kicker	US	car_audio	
+Dayton Audio	US	drivers,amplification	Dayton
+Tymphany	US	drivers	
+Eminence	US	drivers	
+AudioQuest	US	cables	
+Nordost	US	cables	
+Kimber Kable	US	cables	Kimber
+Cardas Audio	US	cables	Cardas
+Transparent Audio	US	cables	Transparent
+Shunyata Research	US	cables	Shunyata
+Hegel	NO	amplification,sources	Hegel Music Systems
+Electrocompaniet	NO	amplification,sources	
+SEAS	NO	drivers	
+Primare	SE	amplification,sources	
+Copland	DK	amplification	
+Lyngdorf	DK	amplification,speakers	Lyngdorf Audio
+Gryphon Audio Designs	DK	amplification,speakers	Gryphon
+Vitus Audio	DK	amplification	Vitus
+Ortofon	DK	cartridges	
+ScanSpeak	DK	drivers	Scan-Speak
+Peerless	DK	drivers	
+Purifi	DK	amplification,drivers	
+Jantzen Audio	DK	drivers	Jantzen
+Jadis	FR	amplification	
+Atoll Electronique	FR	amplification	Atoll
+Micromega	FR	amplification,sources	
+YBA	FR	amplification	
+Audax	FR	drivers	
+Audio Analogue	IT	amplification	
+Pathos Acoustics	IT	amplification	Pathos
+Unison Research	IT	amplification	Unison
+Hertz	IT	car_audio	
+Audison	IT	car_audio	
+Mosconi	IT	car_audio	
+Steg	IT	car_audio	
+Faital Pro	IT	drivers	Faital
+B&C Speakers	IT	drivers	B and C
+18 Sound	IT	drivers	Eighteen Sound
+Beyma	ES	drivers	
+Rockna Audio	RO	sources	Rockna
+Meze Audio	RO	headphones	Meze
+Nagra	CH	amplification,sources	
+Soulution	CH	amplification	
+CH Precision	CH	amplification,sources	
+Weiss Engineering	CH	sources	Weiss
+Thorens	DE	turntables	
+Clearaudio	DE	turntables,cartridges	
+Octave Audio	DE	amplification	
+Brax	DE	car_audio	
+Helix	DE	car_audio	
+Ground Zero	DE	car_audio	
+Gladen	DE	car_audio	
+Eton	DE	car_audio	
+Accuton	DE	drivers	
+Mundorf	DE	drivers	
+Sennheiser	DE	headphones	
+Beyerdynamic	DE	headphones	
+Wolf von Langa	DE	speakers	
+Pro-Ject	AT	turntables,amplification,sources	Project|Pro Ject
+AKG	AT	headphones	
+EAT	CZ	turntables	Euro Audio Team
+PrimaLuna	NL	amplification	
+Hypex	NL	amplification	
+Celestion	GB	drivers	
+Volt Loudspeakers	GB	drivers	Volt
+Markaudio	HK	drivers	
+Satori	BG	drivers	SB Acoustics
+Topping	CN	sources,amplification	
+SMSL	CN	sources,amplification	
+FiiO	CN	sources,headphones	
+Gustard	CN	sources	
+Denafrips	CN	sources	
+Holo Audio	CN	sources	Holo
+Matrix Audio	CN	sources	
+Cayin	CN	amplification	
+Line Magnetic	CN	amplification	
+Aune	CN	sources,amplification	
+HiFiMAN	CN	headphones	Hifiman
+Auralic	CN	sources	
+WiiM	CN	sources	
+Edifier	CN	speakers	
+Fountek	CN	drivers	
+Wavecor	CN	drivers	
+Lumin	HK	sources	
+Aurender	KR	sources	
+Innuos	PT	sources	
+Furutech	JP	cables	
+IsoTek	GB	cables	
+Chord Company	GB	cables	

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catalog Admin</title>
+<style>
+  :root {
+    --bg: #f6f6f4; --panel: #ffffff; --ink: #1c1d1f; --muted: #6b6f76; --line: #e3e3df;
+    --accent: #2f5bd3; --accent-ink: #fff; --ok: #1f7a4d; --ok-bg: #e5f4ec; --warn: #8a5a00; --warn-bg: #fdf2dc;
+    --bad: #b42318; --bad-bg: #fde8e6; --drop: #eef2fc; --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141517; --panel: #1c1d20; --ink: #e8e8e6; --muted: #9a9ea6; --line: #2e3035;
+      --accent: #7c9bff; --accent-ink: #0d1020; --ok: #5fd39a; --ok-bg: #16301f; --warn: #f0c060; --warn-bg: #33290f;
+      --bad: #ff8a80; --bad-bg: #3a1a18; --drop: #1e2433;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { display: flex; align-items: center; gap: 16px; padding: 14px 24px; border-bottom: 1px solid var(--line); background: var(--panel); flex-wrap: wrap; }
+  header h1 { font-size: 16px; margin: 0; font-weight: 650; }
+  header .stats { display: flex; gap: 18px; color: var(--muted); font-size: 13px; }
+  header .stats b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  header .token { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  main { max-width: 1200px; margin: 0 auto; padding: 24px; display: grid; gap: 20px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 20px; }
+  .card h2 { font-size: 14px; margin: 0 0 12px; font-weight: 650; }
+  .muted { color: var(--muted); }
+  input[type=text], input[type=password] { background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; font: inherit; }
+  button { font: inherit; border-radius: 6px; padding: 8px 14px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  #drop { border: 2px dashed var(--line); border-radius: 10px; padding: 40px 20px; text-align: center; background: var(--bg); transition: .15s; cursor: pointer; }
+  #drop.over { border-color: var(--accent); background: var(--drop); }
+  #drop strong { display: block; font-size: 15px; margin-bottom: 4px; }
+  .cols { font-family: var(--mono); font-size: 12px; }
+  .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 16px 0; }
+  .tile { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .tile .n { font-size: 22px; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .tile .l { font-size: 12px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12px; padding: 3px 8px; border-radius: 999px; border: 1px solid var(--line); }
+  .chip.ok { background: var(--ok-bg); color: var(--ok); border-color: transparent; }
+  .chip.warn { background: var(--warn-bg); color: var(--warn); border-color: transparent; }
+  .chip.bad { background: var(--bad-bg); color: var(--bad); border-color: transparent; }
+  .scroll { overflow-x: auto; max-height: 420px; overflow-y: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { position: sticky; top: 0; background: var(--panel); font-weight: 600; color: var(--muted); font-size: 12px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .banner { padding: 10px 12px; border-radius: 8px; margin-top: 12px; }
+  .banner.ok { background: var(--ok-bg); color: var(--ok); }
+  .banner.bad { background: var(--bad-bg); color: var(--bad); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  @media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } main { padding: 16px; } header { padding: 12px 16px; } }
+  h3 { font-size: 13px; margin: 18px 0 8px; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Audio Catalog · Admin</h1>
+  <div class="stats" id="stats"></div>
+  <div class="token">
+    <input type="password" id="token" placeholder="Admin token" autocomplete="off" size="16">
+    <button id="saveToken">Connect</button>
+  </div>
+</header>
+
+<main>
+  <section class="card">
+    <h2>Bulk spec import</h2>
+    <p class="muted" style="margin-top:-6px">CSV, TSV, XLSX or JSON. Required: <span class="cols">Brand</span>, <span class="cols">Model</span>.
+      Mapped: <span class="cols">Sensitivity</span>, <span class="cols">Nominal Impedance</span>, <span class="cols">RMS Wattage</span>, <span class="cols">Category/Type</span>.
+      Any other column is kept in <span class="cols">specs</span>. Existing models are updated; blank cells never overwrite stored values.</p>
+    <div id="drop" tabindex="0" role="button" aria-label="Drop a spreadsheet or click to choose a file">
+      <strong>Drop a spreadsheet here</strong>
+      <span class="muted">or click to choose a file</span>
+      <input type="file" id="file" accept=".csv,.tsv,.txt,.xlsx,.json,.ndjson" hidden>
+    </div>
+    <div class="row" style="margin-top:12px">
+      <label class="row" style="gap:6px"><input type="checkbox" id="allowNew" checked> Create unknown brands (flagged unverified)</label>
+    </div>
+
+    <div id="result" class="hidden">
+      <div class="tiles" id="tiles"></div>
+      <div class="row" style="justify-content:space-between">
+        <div id="fileLabel" class="muted"></div>
+        <div class="row">
+          <button id="reset">Clear</button>
+          <button class="primary" id="commit">Commit import</button>
+        </div>
+      </div>
+      <div id="banner"></div>
+      <h3>Column mapping</h3>
+      <div class="chips" id="mapping"></div>
+      <div id="brandsBox"></div>
+      <h3>Preview <span class="muted" id="previewNote"></span></h3>
+      <div class="scroll"><table id="preview"></table></div>
+      <div id="errorsBox"></div>
+    </div>
+  </section>
+
+  <div class="grid2">
+    <section class="card">
+      <h2>Search tester</h2>
+      <p class="muted" style="margin-top:-6px">Runs <span class="cols">search_components()</span> against the local catalog. Try <em>Morel Octav 4 ohm floorstanding</em>.</p>
+      <input type="text" id="q" placeholder="Brand, model, 4 ohm, floorstanding…" style="width:100%">
+      <p class="muted" id="qMeta" style="margin:8px 0"></p>
+      <div class="scroll"><table id="qResults"></table></div>
+    </section>
+    <section class="card">
+      <h2>Recent imports</h2>
+      <div class="scroll"><table id="history"></table></div>
+    </section>
+  </div>
+</main>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (v) => String(v ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const num = (v) => (v == null || v === '' ? '<span class="muted">—</span>' : esc(Number(v).toLocaleString(undefined, { maximumFractionDigits: 2 })));
+  let token = '';
+  try { token = sessionStorage.getItem('adminToken') || ''; } catch {}
+  $('token').value = token;
+  let currentFile = null;
+
+  async function api(path, opts = {}) {
+    const res = await fetch(path, { ...opts, headers: { ...(opts.headers || {}), Authorization: `Bearer ${token}` } });
+    const body = await res.json().catch(() => ({ error: res.statusText }));
+    if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
+    return body;
+  }
+
+  $('saveToken').onclick = () => { token = $('token').value.trim(); try { sessionStorage.setItem('adminToken', token); } catch {} refresh(); };
+
+  async function refresh() {
+    try {
+      const s = await api('/api/stats');
+      $('stats').innerHTML = `<span><b>${s.brands}</b> brands</span><span><b>${s.unverified_brands}</b> unverified</span><span><b>${s.components.toLocaleString()}</b> components</span>`;
+      const h = await api('/api/imports');
+      $('history').innerHTML = `<tr><th>#</th><th>File</th><th>When</th><th>New</th><th>Upd</th><th>Rej</th></tr>` +
+        (h.length ? h.map((b) => `<tr><td>${b.id}</td><td title="${esc(b.origin)}">${esc(b.filename)}</td><td>${esc(new Date(b.created_at).toLocaleString())}</td>
+          <td class="num">${b.rows_inserted}</td><td class="num">${b.rows_updated}</td><td class="num">${b.rows_rejected}</td></tr>`).join('')
+          : `<tr><td colspan="6" class="muted">No imports yet</td></tr>`);
+    } catch (e) {
+      $('stats').innerHTML = `<span style="color:var(--bad)">${esc(e.message)}</span>`;
+    }
+  }
+
+  // ---------- drag & drop ----------
+  const drop = $('drop');
+  drop.onclick = () => $('file').click();
+  drop.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $('file').click(); } };
+  ['dragenter', 'dragover'].forEach((t) => drop.addEventListener(t, (e) => { e.preventDefault(); drop.classList.add('over'); }));
+  ['dragleave', 'drop'].forEach((t) => drop.addEventListener(t, (e) => { e.preventDefault(); drop.classList.remove('over'); }));
+  drop.addEventListener('drop', (e) => { const f = e.dataTransfer.files[0]; if (f) analyse(f); });
+  $('file').onchange = (e) => { const f = e.target.files[0]; if (f) analyse(f); e.target.value = ''; };
+  $('allowNew').onchange = () => { if (currentFile) analyse(currentFile); };
+  $('reset').onclick = () => { currentFile = null; $('result').classList.add('hidden'); };
+
+  async function send(file, dryRun) {
+    const fd = new FormData();
+    fd.append('file', file);
+    const qs = new URLSearchParams({ dryRun: dryRun ? '1' : '0', allowNewBrands: $('allowNew').checked ? '1' : '0' });
+    return api(`/api/imports?${qs}`, { method: 'POST', body: fd });
+  }
+
+  async function analyse(file) {
+    currentFile = file;
+    $('result').classList.remove('hidden');
+    $('fileLabel').textContent = `Analysing ${file.name}…`;
+    $('banner').innerHTML = '';
+    $('commit').disabled = true;
+    try {
+      const r = await send(file, true);
+      render(r, file);
+      $('commit').disabled = (r.inserted + r.updated) === 0;
+    } catch (e) {
+      $('fileLabel').textContent = file.name;
+      $('banner').innerHTML = `<div class="banner bad">${esc(e.message)}</div>`;
+    }
+  }
+
+  $('commit').onclick = async () => {
+    if (!currentFile) return;
+    $('commit').disabled = true;
+    $('commit').textContent = 'Importing…';
+    try {
+      const r = await send(currentFile, false);
+      render(r, currentFile);
+      $('banner').innerHTML = `<div class="banner ok">Imported as batch #${r.batchId}: ${r.inserted} new, ${r.updated} updated, ${r.rejected} rejected.</div>`;
+      currentFile = null;
+      refresh();
+    } catch (e) {
+      $('banner').innerHTML = `<div class="banner bad">${esc(e.message)}</div>`;
+      $('commit').disabled = false;
+    } finally {
+      $('commit').textContent = 'Commit import';
+    }
+  };
+
+  function render(r, file) {
+    const verb = r.dryRun ? 'will be' : 'were';
+    $('fileLabel').textContent = `${file.name} · ${(file.size / 1024).toFixed(1)} KB · ${r.dryRun ? 'preview (nothing written yet)' : 'committed'}`;
+    const tiles = [
+      [r.rowsTotal, 'rows in file'],
+      [r.inserted, `${verb} inserted`],
+      [r.updated, `${verb} updated`],
+      [r.rejected, 'rejected'],
+      [r.newBrands.length, 'new brands'],
+    ];
+    if (r.duplicatesInFile) tiles.push([r.duplicatesInFile, 'duplicates merged']);
+    $('tiles').innerHTML = tiles.map(([n, l]) => `<div class="tile"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+
+    const mapped = Object.entries(r.columnMap).map(([h, f]) => `<span class="chip ok">${esc(h)} → ${esc(f)}</span>`);
+    const missing = r.missingColumns.map((f) => `<span class="chip bad">missing: ${esc(f)}</span>`);
+    const extra = r.unmappedColumns.map((h) => `<span class="chip">${esc(h)} → specs</span>`);
+    $('mapping').innerHTML = [...missing, ...mapped, ...extra].join('');
+
+    $('brandsBox').innerHTML = r.unknownBrands.length
+      ? `<h3>Brands not in the master list</h3><div class="chips">${r.unknownBrands.map((u) => {
+          const cls = u.action.startsWith('mapped') ? 'ok' : u.action === 'rejected' ? 'bad' : 'warn';
+          const hint = u.suggestions.length && !u.action.startsWith('mapped') ? ` · did you mean ${u.suggestions.map(esc).join(' / ')}?` : '';
+          return `<span class="chip ${cls}">“${esc(u.brand)}” (${u.rows} rows) → ${esc(u.action)}${hint}</span>`;
+        }).join('')}</div>` : '';
+
+    $('previewNote').textContent = r.preview.length >= 200 ? '(first 200 rows)' : '';
+    $('preview').innerHTML = `<tr><th>Row</th><th>Status</th><th>Brand</th><th>Model</th><th>Category</th><th>Sens. dB</th><th>Imp. Ω</th><th>RMS W</th></tr>` +
+      r.preview.map((p) => `<tr><td class="num">${p.row_no}</td>
+        <td><span class="chip ${p.existed ? 'warn' : 'ok'}">${p.existed ? 'update' : 'new'}</span></td>
+        <td>${esc(p.brand)}</td><td>${esc(p.model)}</td><td>${esc(p.category)}</td>
+        <td class="num">${num(p.sensitivity_db)}</td><td class="num">${num(p.nominal_impedance_ohm)}</td><td class="num">${num(p.rms_watts)}</td></tr>`).join('');
+
+    const issues = [
+      ...r.errors.map((e) => ({ row: e.row, kind: 'bad', text: e.errors.join('; ') })),
+      ...r.warnings.map((w) => ({ row: w.row, kind: 'warn', text: w.messages.join('; ') })),
+    ].sort((a, b) => a.row - b.row);
+    $('errorsBox').innerHTML = issues.length
+      ? `<h3>Issues</h3><div class="scroll"><table><tr><th style="width:60px">Row</th><th style="width:90px"></th><th>Message</th></tr>${issues.map((i) =>
+          `<tr><td class="num">${i.row}</td><td><span class="chip ${i.kind}">${i.kind === 'bad' ? 'rejected' : 'warning'}</span></td><td style="white-space:normal">${esc(i.text)}</td></tr>`).join('')}</table></div>`
+      : '';
+  }
+
+  // ---------- search tester ----------
+  let qTimer;
+  $('q').addEventListener('input', () => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(async () => {
+      const q = $('q').value.trim();
+      if (!q) { $('qResults').innerHTML = ''; $('qMeta').textContent = ''; return; }
+      try {
+        const { ms, rows } = await api(`/api/search?q=${encodeURIComponent(q)}`);
+        $('qMeta').textContent = rows.length ? `${rows.length} match(es) · ${ms.toFixed(1)} ms` : `No local match (${ms.toFixed(1)} ms) — app would fall back to the LLM lookup`;
+        $('qResults').innerHTML = rows.length ? `<tr><th>Brand</th><th>Model</th><th>Cat.</th><th>Ω</th><th>dB</th><th>W</th><th>Score</th></tr>` +
+          rows.map((x) => `<tr><td>${esc(x.brand)}</td><td>${esc(x.model)}</td><td>${esc(x.category)}</td><td class="num">${num(x.nominal_impedance_ohm)}</td>
+            <td class="num">${num(x.sensitivity_db)}</td><td class="num">${num(x.rms_watts)}</td><td class="num">${x.score.toFixed(2)}</td></tr>`).join('') : '';
+      } catch (e) { $('qMeta').textContent = e.message; }
+    }, 200);
+  });
+
+  refresh();
+})();
+</script>
+</body>
+</html>

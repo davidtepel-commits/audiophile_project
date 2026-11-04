@@ -1,0 +1,2811 @@
+{
+ "version": 1,
+ "brands": [
+  {
+   "name": "Morel",
+   "country": "IL",
+   "categories": [
+    "speakers",
+    "car_audio",
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Focal",
+   "country": "FR",
+   "categories": [
+    "speakers",
+    "headphones",
+    "car_audio",
+    "drivers"
+   ],
+   "aliases": [
+    "JMlab",
+    "Focal-JMlab"
+   ]
+  },
+  {
+   "name": "Bowers & Wilkins",
+   "country": "GB",
+   "categories": [
+    "speakers",
+    "headphones"
+   ],
+   "aliases": [
+    "B&W",
+    "BW",
+    "B and W"
+   ]
+  },
+  {
+   "name": "KEF",
+   "country": "GB",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Dynaudio",
+   "country": "DK",
+   "categories": [
+    "speakers",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "DALI",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Danish Audiophile Loudspeaker Industries"
+   ]
+  },
+  {
+   "name": "Magnepan",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Maggie",
+    "Magneplanar"
+   ]
+  },
+  {
+   "name": "MartinLogan",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": [
+    "Martin Logan"
+   ]
+  },
+  {
+   "name": "Klipsch",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "JBL",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers",
+    "car_audio"
+   ],
+   "aliases": [
+    "JBL Synthesis"
+   ]
+  },
+  {
+   "name": "Wharfedale",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Monitor Audio",
+   "country": "GB",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "ProAc",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Harbeth",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Spendor",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Graham Audio",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Rogers",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Tannoy",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "PMC",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Professional Monitor Company"
+   ]
+  },
+  {
+   "name": "ATC",
+   "country": "GB",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": [
+    "Acoustic Transducer Company"
+   ]
+  },
+  {
+   "name": "Kudos Audio",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Kudos"
+   ]
+  },
+  {
+   "name": "Neat Acoustics",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Neat"
+   ]
+  },
+  {
+   "name": "Q Acoustics",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Mission",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Castle Acoustics",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Castle"
+   ]
+  },
+  {
+   "name": "Acoustic Energy",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "AE"
+   ]
+  },
+  {
+   "name": "Epos",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Russell K",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Fyne Audio",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Wilson Benesch",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Living Voice",
+   "country": "GB",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "REL Acoustics",
+   "country": "GB",
+   "categories": [
+    "subwoofers"
+   ],
+   "aliases": [
+    "REL"
+   ]
+  },
+  {
+   "name": "Totem Acoustic",
+   "country": "CA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Totem"
+   ]
+  },
+  {
+   "name": "Paradigm",
+   "country": "CA",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "PSB Speakers",
+   "country": "CA",
+   "categories": [
+    "speakers",
+    "subwoofers",
+    "headphones"
+   ],
+   "aliases": [
+    "PSB"
+   ]
+  },
+  {
+   "name": "Axiom Audio",
+   "country": "CA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Axiom"
+   ]
+  },
+  {
+   "name": "Energy",
+   "country": "CA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Energy Speakers"
+   ]
+  },
+  {
+   "name": "Mirage",
+   "country": "CA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "ELAC",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Canton",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Heco",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Magnat",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Quadral",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Nubert",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Physic",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Gauder Akustik",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Burmester",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "T+A",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "amplification",
+    "sources",
+    "headphones"
+   ],
+   "aliases": [
+    "T and A",
+    "Theory and Application"
+   ]
+  },
+  {
+   "name": "Manger",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Avantgarde Acoustic",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Avantgarde"
+   ]
+  },
+  {
+   "name": "MBL",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Lansche Audio",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Ascendo",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Tidal Audio",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Acapella Audio Arts",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Acapella"
+   ]
+  },
+  {
+   "name": "Cessaro",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Auditorium 23",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kii Audio",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Kii"
+   ]
+  },
+  {
+   "name": "Adam Audio",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "ADAM"
+   ]
+  },
+  {
+   "name": "Neumann",
+   "country": "DE",
+   "categories": [
+    "speakers",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Piega",
+   "country": "CH",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Goldmund",
+   "country": "CH",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sonus Faber",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Sonus faber"
+   ]
+  },
+  {
+   "name": "Franco Serblin",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Diapason",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Chario",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Opera Loudspeakers",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Opera"
+   ]
+  },
+  {
+   "name": "Zingali",
+   "country": "IT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Viva Audio",
+   "country": "IT",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Vienna Acoustics",
+   "country": "AT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Estelon",
+   "country": "EE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Solutions",
+   "country": "LT",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Raidho",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Scansonic",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audiovector",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Jamo",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Børresen",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Borresen",
+    "Borresen Acoustics"
+   ]
+  },
+  {
+   "name": "Gamut",
+   "country": "DK",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "System Audio",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Buchardt Audio",
+   "country": "DK",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Buchardt"
+   ]
+  },
+  {
+   "name": "Vivid Audio",
+   "country": "ZA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Wilson Audio",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Magico",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "YG Acoustics",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "YG"
+   ]
+  },
+  {
+   "name": "Rockport Technologies",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Rockport"
+   ]
+  },
+  {
+   "name": "Thiel",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Thiel Audio"
+   ]
+  },
+  {
+   "name": "Vandersteen",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Von Schweikert Audio",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "VSA",
+    "Von Schweikert"
+   ]
+  },
+  {
+   "name": "Legacy Audio",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Polk Audio",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": [
+    "Polk"
+   ]
+  },
+  {
+   "name": "Definitive Technology",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": [
+    "Def Tech"
+   ]
+  },
+  {
+   "name": "SVS",
+   "country": "US",
+   "categories": [
+    "subwoofers",
+    "speakers"
+   ],
+   "aliases": [
+    "SV Sound"
+   ]
+  },
+  {
+   "name": "JL Audio",
+   "country": "US",
+   "categories": [
+    "subwoofers",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Rythmik Audio",
+   "country": "US",
+   "categories": [
+    "subwoofers"
+   ],
+   "aliases": [
+    "Rythmik"
+   ]
+  },
+  {
+   "name": "Hsu Research",
+   "country": "US",
+   "categories": [
+    "subwoofers"
+   ],
+   "aliases": [
+    "Hsu"
+   ]
+  },
+  {
+   "name": "GoldenEar",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": [
+    "GoldenEar Technology"
+   ]
+  },
+  {
+   "name": "Zu Audio",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Zu"
+   ]
+  },
+  {
+   "name": "Tekton Design",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Tekton"
+   ]
+  },
+  {
+   "name": "Avalon Acoustics",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Avalon"
+   ]
+  },
+  {
+   "name": "Joseph Audio",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Perlisten",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Revel",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Infinity",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Snell Acoustics",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Snell"
+   ]
+  },
+  {
+   "name": "Acoustic Research",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "AR"
+   ]
+  },
+  {
+   "name": "Bose",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sonos",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Triangle",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Cabasse",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Davis Acoustics",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Davis"
+   ]
+  },
+  {
+   "name": "Elipson",
+   "country": "FR",
+   "categories": [
+    "speakers",
+    "turntables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Atohm",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Waterfall Audio",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Jean-Marie Reynaud",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "JMR"
+   ]
+  },
+  {
+   "name": "Ocellia",
+   "country": "FR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kharma",
+   "country": "NL",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Dutch & Dutch",
+   "country": "NL",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Dutch and Dutch"
+   ]
+  },
+  {
+   "name": "Genelec",
+   "country": "FI",
+   "categories": [
+    "speakers",
+    "subwoofers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Amphion",
+   "country": "FI",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Marten",
+   "country": "SE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Pro",
+   "country": "SE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Usher Audio",
+   "country": "TW",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Usher"
+   ]
+  },
+  {
+   "name": "Tune Audio",
+   "country": "GR",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Bang & Olufsen",
+   "country": "DK",
+   "categories": [
+    "speakers",
+    "headphones"
+   ],
+   "aliases": [
+    "B&O",
+    "BO",
+    "Bang and Olufsen"
+   ]
+  },
+  {
+   "name": "Devialet",
+   "country": "FR",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Linn",
+   "country": "GB",
+   "categories": [
+    "sources",
+    "amplification",
+    "speakers",
+    "turntables"
+   ],
+   "aliases": [
+    "Linn Products"
+   ]
+  },
+  {
+   "name": "Naim Audio",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Naim"
+   ]
+  },
+  {
+   "name": "Meridian Audio",
+   "country": "GB",
+   "categories": [
+    "sources",
+    "speakers",
+    "amplification"
+   ],
+   "aliases": [
+    "Meridian"
+   ]
+  },
+  {
+   "name": "Rega",
+   "country": "GB",
+   "categories": [
+    "turntables",
+    "amplification",
+    "sources",
+    "speakers",
+    "cartridges"
+   ],
+   "aliases": [
+    "Rega Research"
+   ]
+  },
+  {
+   "name": "Arcam",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Cambridge Audio",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Cambridge"
+   ]
+  },
+  {
+   "name": "Musical Fidelity",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Chord Electronics",
+   "country": "GB",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": [
+    "Chord"
+   ]
+  },
+  {
+   "name": "dCS",
+   "country": "GB",
+   "categories": [
+    "sources"
+   ],
+   "aliases": [
+    "Data Conversion Systems"
+   ]
+  },
+  {
+   "name": "Leema Acoustics",
+   "country": "GB",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Leema"
+   ]
+  },
+  {
+   "name": "Exposure",
+   "country": "GB",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Creek Audio",
+   "country": "GB",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Creek"
+   ]
+  },
+  {
+   "name": "Roksan",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "turntables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Cyrus Audio",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Cyrus"
+   ]
+  },
+  {
+   "name": "Quad",
+   "country": "GB",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": [
+    "QUAD"
+   ]
+  },
+  {
+   "name": "Audiolab",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Note UK",
+   "country": "GB",
+   "categories": [
+    "amplification",
+    "speakers",
+    "sources"
+   ],
+   "aliases": [
+    "Audio Note"
+   ]
+  },
+  {
+   "name": "iFi Audio",
+   "country": "GB",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": [
+    "iFi"
+   ]
+  },
+  {
+   "name": "SME",
+   "country": "GB",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Michell Engineering",
+   "country": "GB",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": [
+    "Michell"
+   ]
+  },
+  {
+   "name": "NAD",
+   "country": "CA",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "NAD Electronics"
+   ]
+  },
+  {
+   "name": "Bryston",
+   "country": "CA",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Moon by Simaudio",
+   "country": "CA",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Simaudio",
+    "Moon"
+   ]
+  },
+  {
+   "name": "Classé",
+   "country": "CA",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Classe",
+    "Classe Audio"
+   ]
+  },
+  {
+   "name": "Anthem",
+   "country": "CA",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Bluesound",
+   "country": "CA",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kanto",
+   "country": "CA",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": [
+    "Kanto Audio"
+   ]
+  },
+  {
+   "name": "Marantz",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Denon",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources",
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Yamaha",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources",
+    "speakers",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Onkyo",
+   "country": "JP",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Pioneer",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources",
+    "car_audio"
+   ],
+   "aliases": [
+    "Pioneer Elite"
+   ]
+  },
+  {
+   "name": "Technics",
+   "country": "JP",
+   "categories": [
+    "turntables",
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Accuphase",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Luxman",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Esoteric",
+   "country": "JP",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "TEAC",
+   "country": "JP",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sony",
+   "country": "JP",
+   "categories": [
+    "sources",
+    "headphones",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kenwood",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sansui",
+   "country": "JP",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Nakamichi",
+   "country": "JP",
+   "categories": [
+    "sources",
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio-Technica",
+   "country": "JP",
+   "categories": [
+    "cartridges",
+    "headphones",
+    "turntables"
+   ],
+   "aliases": [
+    "Audio Technica",
+    "AT"
+   ]
+  },
+  {
+   "name": "Fostex",
+   "country": "JP",
+   "categories": [
+    "drivers",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Final Audio",
+   "country": "JP",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": [
+    "Final"
+   ]
+  },
+  {
+   "name": "Air Tight",
+   "country": "JP",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kondo",
+   "country": "JP",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Audio Note Japan",
+    "Kondo Audio Note"
+   ]
+  },
+  {
+   "name": "Leben",
+   "country": "JP",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Soulnote",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "TAD Laboratories",
+   "country": "JP",
+   "categories": [
+    "speakers",
+    "amplification"
+   ],
+   "aliases": [
+    "TAD",
+    "Technical Audio Devices"
+   ]
+  },
+  {
+   "name": "Kiso Acoustic",
+   "country": "JP",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Stax",
+   "country": "JP",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Lyra",
+   "country": "JP",
+   "categories": [
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Dynavector",
+   "country": "JP",
+   "categories": [
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Koetsu",
+   "country": "JP",
+   "categories": [
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Alpine",
+   "country": "JP",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Rotel",
+   "country": "JP",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "McIntosh",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources",
+    "speakers"
+   ],
+   "aliases": [
+    "McIntosh Labs"
+   ]
+  },
+  {
+   "name": "Mark Levinson",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Krell",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Krell Industries"
+   ]
+  },
+  {
+   "name": "Pass Labs",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Pass"
+   ]
+  },
+  {
+   "name": "First Watt",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Research",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "ARC"
+   ]
+  },
+  {
+   "name": "Conrad-Johnson",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "CJ",
+    "Conrad Johnson"
+   ]
+  },
+  {
+   "name": "VTL",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Vacuum Tube Logic"
+   ]
+  },
+  {
+   "name": "Boulder Amplifiers",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Boulder"
+   ]
+  },
+  {
+   "name": "Constellation Audio",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Constellation"
+   ]
+  },
+  {
+   "name": "Parasound",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Schiit Audio",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Schiit"
+   ]
+  },
+  {
+   "name": "Benchmark Media Systems",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Benchmark"
+   ]
+  },
+  {
+   "name": "PS Audio",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Bel Canto",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Bel Canto Design"
+   ]
+  },
+  {
+   "name": "Ayre Acoustics",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Ayre"
+   ]
+  },
+  {
+   "name": "Spectral Audio",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Spectral"
+   ]
+  },
+  {
+   "name": "Threshold",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Emotiva",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Outlaw Audio",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Outlaw"
+   ]
+  },
+  {
+   "name": "Monoprice",
+   "country": "US",
+   "categories": [
+    "speakers",
+    "amplification",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Cary Audio",
+   "country": "US",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Cary"
+   ]
+  },
+  {
+   "name": "Rogue Audio",
+   "country": "US",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Rogue"
+   ]
+  },
+  {
+   "name": "VPI Industries",
+   "country": "US",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": [
+    "VPI"
+   ]
+  },
+  {
+   "name": "Music Hall",
+   "country": "US",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sumiko",
+   "country": "US",
+   "categories": [
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audioengine",
+   "country": "US",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audeze",
+   "country": "US",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Grado",
+   "country": "US",
+   "categories": [
+    "headphones",
+    "cartridges"
+   ],
+   "aliases": [
+    "Grado Labs"
+   ]
+  },
+  {
+   "name": "Dan Clark Audio",
+   "country": "US",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": [
+    "DCA",
+    "MrSpeakers"
+   ]
+  },
+  {
+   "name": "ZMF Headphones",
+   "country": "US",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": [
+    "ZMF"
+   ]
+  },
+  {
+   "name": "Shure",
+   "country": "US",
+   "categories": [
+    "headphones",
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Campfire Audio",
+   "country": "US",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Rockford Fosgate",
+   "country": "US",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": [
+    "Rockford"
+   ]
+  },
+  {
+   "name": "Kicker",
+   "country": "US",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Dayton Audio",
+   "country": "US",
+   "categories": [
+    "drivers",
+    "amplification"
+   ],
+   "aliases": [
+    "Dayton"
+   ]
+  },
+  {
+   "name": "Tymphany",
+   "country": "US",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Eminence",
+   "country": "US",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "AudioQuest",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Nordost",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Kimber Kable",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": [
+    "Kimber"
+   ]
+  },
+  {
+   "name": "Cardas Audio",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": [
+    "Cardas"
+   ]
+  },
+  {
+   "name": "Transparent Audio",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": [
+    "Transparent"
+   ]
+  },
+  {
+   "name": "Shunyata Research",
+   "country": "US",
+   "categories": [
+    "cables"
+   ],
+   "aliases": [
+    "Shunyata"
+   ]
+  },
+  {
+   "name": "Hegel",
+   "country": "NO",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Hegel Music Systems"
+   ]
+  },
+  {
+   "name": "Electrocompaniet",
+   "country": "NO",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "SEAS",
+   "country": "NO",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Primare",
+   "country": "SE",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Copland",
+   "country": "DK",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Lyngdorf",
+   "country": "DK",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": [
+    "Lyngdorf Audio"
+   ]
+  },
+  {
+   "name": "Gryphon Audio Designs",
+   "country": "DK",
+   "categories": [
+    "amplification",
+    "speakers"
+   ],
+   "aliases": [
+    "Gryphon"
+   ]
+  },
+  {
+   "name": "Vitus Audio",
+   "country": "DK",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Vitus"
+   ]
+  },
+  {
+   "name": "Ortofon",
+   "country": "DK",
+   "categories": [
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "ScanSpeak",
+   "country": "DK",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "Scan-Speak"
+   ]
+  },
+  {
+   "name": "Peerless",
+   "country": "DK",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Purifi",
+   "country": "DK",
+   "categories": [
+    "amplification",
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Jantzen Audio",
+   "country": "DK",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "Jantzen"
+   ]
+  },
+  {
+   "name": "Jadis",
+   "country": "FR",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Atoll Electronique",
+   "country": "FR",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Atoll"
+   ]
+  },
+  {
+   "name": "Micromega",
+   "country": "FR",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "YBA",
+   "country": "FR",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audax",
+   "country": "FR",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audio Analogue",
+   "country": "IT",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Pathos Acoustics",
+   "country": "IT",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Pathos"
+   ]
+  },
+  {
+   "name": "Unison Research",
+   "country": "IT",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": [
+    "Unison"
+   ]
+  },
+  {
+   "name": "Hertz",
+   "country": "IT",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Audison",
+   "country": "IT",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Mosconi",
+   "country": "IT",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Steg",
+   "country": "IT",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Faital Pro",
+   "country": "IT",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "Faital"
+   ]
+  },
+  {
+   "name": "B&C Speakers",
+   "country": "IT",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "B and C"
+   ]
+  },
+  {
+   "name": "18 Sound",
+   "country": "IT",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "Eighteen Sound"
+   ]
+  },
+  {
+   "name": "Beyma",
+   "country": "ES",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Rockna Audio",
+   "country": "RO",
+   "categories": [
+    "sources"
+   ],
+   "aliases": [
+    "Rockna"
+   ]
+  },
+  {
+   "name": "Meze Audio",
+   "country": "RO",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": [
+    "Meze"
+   ]
+  },
+  {
+   "name": "Nagra",
+   "country": "CH",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Soulution",
+   "country": "CH",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "CH Precision",
+   "country": "CH",
+   "categories": [
+    "amplification",
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Weiss Engineering",
+   "country": "CH",
+   "categories": [
+    "sources"
+   ],
+   "aliases": [
+    "Weiss"
+   ]
+  },
+  {
+   "name": "Thorens",
+   "country": "DE",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Clearaudio",
+   "country": "DE",
+   "categories": [
+    "turntables",
+    "cartridges"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Octave Audio",
+   "country": "DE",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Brax",
+   "country": "DE",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Helix",
+   "country": "DE",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Ground Zero",
+   "country": "DE",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Gladen",
+   "country": "DE",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Eton",
+   "country": "DE",
+   "categories": [
+    "car_audio"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Accuton",
+   "country": "DE",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Mundorf",
+   "country": "DE",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Sennheiser",
+   "country": "DE",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Beyerdynamic",
+   "country": "DE",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Wolf von Langa",
+   "country": "DE",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Pro-Ject",
+   "country": "AT",
+   "categories": [
+    "turntables",
+    "amplification",
+    "sources"
+   ],
+   "aliases": [
+    "Project",
+    "Pro Ject"
+   ]
+  },
+  {
+   "name": "AKG",
+   "country": "AT",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "EAT",
+   "country": "CZ",
+   "categories": [
+    "turntables"
+   ],
+   "aliases": [
+    "Euro Audio Team"
+   ]
+  },
+  {
+   "name": "PrimaLuna",
+   "country": "NL",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Hypex",
+   "country": "NL",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Celestion",
+   "country": "GB",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Volt Loudspeakers",
+   "country": "GB",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "Volt"
+   ]
+  },
+  {
+   "name": "Markaudio",
+   "country": "HK",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Satori",
+   "country": "BG",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": [
+    "SB Acoustics"
+   ]
+  },
+  {
+   "name": "Topping",
+   "country": "CN",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "SMSL",
+   "country": "CN",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "FiiO",
+   "country": "CN",
+   "categories": [
+    "sources",
+    "headphones"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Gustard",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Denafrips",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Holo Audio",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": [
+    "Holo"
+   ]
+  },
+  {
+   "name": "Matrix Audio",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Cayin",
+   "country": "CN",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Line Magnetic",
+   "country": "CN",
+   "categories": [
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Aune",
+   "country": "CN",
+   "categories": [
+    "sources",
+    "amplification"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "HiFiMAN",
+   "country": "CN",
+   "categories": [
+    "headphones"
+   ],
+   "aliases": [
+    "Hifiman"
+   ]
+  },
+  {
+   "name": "Auralic",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "WiiM",
+   "country": "CN",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Edifier",
+   "country": "CN",
+   "categories": [
+    "speakers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Fountek",
+   "country": "CN",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Wavecor",
+   "country": "CN",
+   "categories": [
+    "drivers"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Lumin",
+   "country": "HK",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Aurender",
+   "country": "KR",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Innuos",
+   "country": "PT",
+   "categories": [
+    "sources"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Furutech",
+   "country": "JP",
+   "categories": [
+    "cables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "IsoTek",
+   "country": "GB",
+   "categories": [
+    "cables"
+   ],
+   "aliases": []
+  },
+  {
+   "name": "Chord Company",
+   "country": "GB",
+   "categories": [
+    "cables"
+   ],
+   "aliases": []
+  }
+ ]
+}
